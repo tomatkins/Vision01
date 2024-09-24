@@ -11,7 +11,7 @@ import SwiftUI
 struct Vision01App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+            ContentListView()
+        } .windowStyle(.plain)
     }
 }
